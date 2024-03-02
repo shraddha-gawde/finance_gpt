@@ -7,9 +7,10 @@ const Allroutes = () => {
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/stocks" element={<Stocks />} />
+        {
+        /* <Route path="/stocks" element={<Stocks />} />
         <Route path="/stocks/detail/:stockId" element={<StockDetail />} />
-        <Route path="/finance-news" element={<FinanceNews />} />
+        <Route path="/finance-news" element={<FinanceNews />} />/
         <Route path="/analysis" element={<Analysis />} />
         <Route path="/ask-ai" element={<Askai />} />
         <Route path="*" element={<Error />} /> */}
