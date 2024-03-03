@@ -14,7 +14,7 @@ const Analysis = () => {
     const options = {
       method: "GET",
       headers: {
-        "X-RapidAPI-Key": "a518a4799amshfb9da0bd07c8d29p18e681jsn7a562157776b",
+        'X-RapidAPI-Key': process.env.REACT_APP_STOCKS_API_KEY,
         "X-RapidAPI-Host": "article-extractor-and-summarizer.p.rapidapi.com",
       },
     };
