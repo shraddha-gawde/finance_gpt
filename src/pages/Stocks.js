@@ -13,7 +13,7 @@ const Stocks = () => {
     const options = {
       method: "GET",
       headers: {
-        'X-RapidAPI-Key': 'a518a4799amshfb9da0bd07c8d29p18e681jsn7a562157776b',
+        'X-RapidAPI-Key': process.env.REACT_APP_STOCKS_API_KEY,
         'X-RapidAPI-Host': 'real-time-finance-data.p.rapidapi.com'
       },
     };
@@ -21,7 +21,7 @@ const Stocks = () => {
       const response = await fetch(url, options);
       const result = await response.json();
       console.log(result);
-      const allData = [...result.data.stock]; // mutual funds-, ...result.data.mutual_fund
+      const allData = [...result.data.stock]; 
       console.log(allData);
       console.log(result.data.mutual_fund);
       setStockData(allData);
