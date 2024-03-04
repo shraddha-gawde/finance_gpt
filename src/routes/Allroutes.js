@@ -5,6 +5,7 @@ import Stocks from "../pages/Stocks.js";
 import FinanceNews from "../pages/FinanceNews.js";
 import Analysis from "../pages/Analysis.js";
 import Error from "../pages/Error.js";
+import StockDetail from "../pages/StockDetails.js";
 
 const Allroutes = () => {
   return (
@@ -15,6 +16,7 @@ const Allroutes = () => {
         <Route path="/finance-news" element={<FinanceNews />} />
         <Route path="/analysis" element={<Analysis />} />
         <Route path="*" element={<Error />} />
+        <Route path="/stocks/detail/:stockId" element={<StockDetail />} />
         {
           // <Route path="/finance-news" element={<FinanceNews />} />
           // <Route path="/analysis" element={<Analysis />} />
