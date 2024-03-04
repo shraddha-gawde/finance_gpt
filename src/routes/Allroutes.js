@@ -6,6 +6,7 @@ import FinanceNews from "../pages/FinanceNews.js";
 import Analysis from "../pages/Analysis.js";
 import Error from "../pages/Error.js";
 import StockDetail from "../pages/StockDetails.js";
+import Askai from "../pages/Askai.js";
 
 const Allroutes = () => {
   return (
@@ -17,15 +18,8 @@ const Allroutes = () => {
         <Route path="/analysis" element={<Analysis />} />
         <Route path="*" element={<Error />} />
         <Route path="/stocks/detail/:stockId" element={<StockDetail />} />
-        {
-          // <Route path="/finance-news" element={<FinanceNews />} />
-          // <Route path="/analysis" element={<Analysis />} />
-          // <Route path="/stocks" element={<Stocks />} />
-          // <Route path="/stocks/detail/:stockId" element={<StockDetail />} />
-          //
-          // <Route path="/ask-ai" element={<Askai />} />
-          // <Route path="*" element={<Error />} />
-        }
+        <Route path="/ask-ai" element={<Askai />} />
+        
       </Routes>
     </div>
   );
