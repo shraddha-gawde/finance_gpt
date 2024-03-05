@@ -37,7 +37,7 @@ const Askai = () => {
       <div className="h-full bg-[#FFF5EE;] text-black  dark:bg-[#001220;] dark:text-white">
         <div className="flex w-screen justify-center items-center ">
           <div className=" text-black text-2xl head_text mb-10 dark:text-white ask-ai">
-            Aks GPT
+            Ask GPT
           </div>
         </div>
         <Link to="/">
