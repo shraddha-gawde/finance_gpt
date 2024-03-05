@@ -11,24 +11,20 @@ Frontend: - [Live Link](https://finance-gpt-omega.vercel.app/)
 ## Directory Structure
 ```
 my-app/
-├─ backend/
-│  ├─ controller/
-│  │  ├─ middlewares/
-│  │  ├─ routes/
-│  ├─ models/
-│  ├─ node_modules/
-│  ├─ .env/
-│  ├─ .gitignore/
-│  ├─ db.js/
-│  ├─ index.js/
-│  ├─ package.json/
-├─ frontend/
-│  ├─ images/
-│  ├─ public/
-│  ├─ scripts/
-│  ├─ styles/
-│  ├─ view/
-├─ index.html/
+├─ node_modules/
+├─ public/
+├─ src/
+│  ├─ assets/
+│  ├─ components/
+│  ├─ pages/
+│  ├─ routes/
+│  ├─ util/
+│  ├─ index.js
+├─ .env
+├─ .gitignore
+├─ package.json
+├─ package.lock.json
+├─ tailwind.config.json
 ```
 
 ## Video Walkthrough of the project =>- [Drive-Link](https://drive.google.com/file/d/12TqD7DMMyCOpAKdvKA7uHhuOaARiMN_N/view?usp=sharing)
