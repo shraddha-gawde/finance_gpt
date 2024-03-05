@@ -85,3 +85,10 @@ Quickly grasp the essence of stock articles with our Stock Article Summary Page.
 # OpenAI Financial Query Assistance Page
 ![Screenshot 2024-03-05 115619](https://github.com/shraddha-gawde/finance_gpt/assets/101090200/3ae00ac6-2eb6-4d3b-9e22-80c707612ce5)
 Empower your financial decisions with AI-driven assistance on our OpenAI Financial Query Assistance Page.
+
+
+## Contributors
+- [Shraddha Gawde](https://github.com/shraddha-gawde)
+- [Nishant Bhargava](https://github.com/Nishant6571)
+- [Shahbaz Ahmad](https://github.com/iammshahbaz)
+- [Utkarsh Agnihotri](https://github.com/utkarshonline)
