@@ -45,7 +45,6 @@ my-app/
   
 ## Usage
 - Visit the deployed frontend link and explore the various features.
-## Credentials
 
 ## APIs Used
 - **for real time Stocks data:** RapidAPI for real-time stock data.
