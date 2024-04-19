@@ -1,7 +1,10 @@
 # FinanceGPT
-![Screenshot 2024-03-05 114844](https://github.com/shraddha-gawde/finance_gpt/assets/101090200/58bac5aa-0cf3-42e4-acc4-b49781b03f7c)
+
 
 FinanceGPT is a comprehensive financial information tool designed to provide users with real-time stock data, curated articles, and AI-driven assistance for financial queries. Whether you're a novice or an experienced finance professional, FinanceGPT aims to empower you with the necessary tools and information for informed decision-making in the dynamic world of finance.
+
+![Screenshot 2024-03-05 114844](https://github.com/shraddha-gawde/finance_gpt/assets/101090200/58bac5aa-0cf3-42e4-acc4-b49781b03f7c)
+
 
 ## Project Type
 | Fullstack |
